@@ -13,7 +13,7 @@ func main() {
 
 	r := gin.Default()
 
-	r.Use(middleware.CORSMiddleware()) // ✅ Thêm dòng này
+	r.Use(middleware.CORSMiddleware()) 
 
 	database.ConnectDB()
 
